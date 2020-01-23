@@ -33,8 +33,8 @@ end
 #     it 'the aoh_lookup method returns the requested value' do
 #       expect(aoh_lookup(assembled_aoh, 2, :name)).to eq("Pat Monteseian")
 def aoh_lookup(aoh, row, key)
-  # ele = aoh[2][:key]
-  # ele
+  ele = aoh[2][key]
+  ele
 end
 
 def aoh_update(aoh, row, key, new_value)
